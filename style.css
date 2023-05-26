@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  background-color: black;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-and-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.img-logo {
+  width: 58px;
+  height: 57px;
+}
+.title-and-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-header {
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.subtitle-header {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  height: 8px;
+}
+.title-2-header {
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.subtitle2-header {
+  font-family: "Anton", sans-serif;
+  color: black;
+  background-color: #ff0d36;
+  width: 450px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  letter-spacing: 2px;
+  margin-top: 12px;
+}
+.div-title-2 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div-container {
+  margin-top: 90px;
+  background-image: linear-gradient(90deg, black, #ff0d36, #ff0d36, black);
+  border: 1px solid black;
+  border-radius: 24px;
+  width: 320px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img-estrela {
+  margin-top: 12px;
+  width: 28px;
+  height: 27px;
+}
+.title-container {
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.subtitle-container {
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.subtitle-container {
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.div-margin-top {
+  margin-top: 35px;
+}
+.div-preco-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 8px;
+  width: 164px;
+  height: 34px;
+}
+.preco-container {
+  font-family: "Anton", sans-serif;
+  color: white;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.preco-2-container {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.botao-container {
+  margin-top: 50px;
+  width: 250px;
+  height: auto;
+  background-color: #ff0d36;
+  border: black 2px;
+  border-radius: 8px;
+  border-style: groove;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.compra-segura-container {
+  width: 250px;
+  height: 38px;
+  margin-top: 18px;
+}
+.vantagens-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+}
+.title-vantagens {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  align-items: baseline;
+  margin: 0;
+}
+.subtitle-vantagens {
+  font-family: "Inter", sans-serif;
+  color: #d3d7de;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 7px;
+  text-align: center;
+  width: 1370px;
+  margin-top: -20px;
+}
+.text-red {
+  color: #ff0d36;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.container-boxes-vantagens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.box-vantagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 314px;
+  height: 330px;
+  background-image: linear-gradient(90deg, black, #ff0d36, #ff0d36, black);
+  border-radius: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.img-box-vantagens {
+  width: 48px;
+  height: 47px;
+  margin-left: 20px;
+}
+.title-box-vantagens {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 12px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+.subtitle-box-vantagens {
+  font-family: "Inter", sans-serif;
+  color: #d3d7de;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 7px;
+  margin-left: 8px;
+  text-align: center;
+}
+.section-paraQuem {
+}
+.container-and-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-paraQuem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-paraQuem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  align-items: baseline;
+  margin-bottom: -10px;
+}
+.para-quem-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 490px;
+}
+.verificado-box {
+  width: 38px;
+  height: 37px;
+}
+.paraQuem-text-box {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: -10px;
+}
+.subtitle-paraQuem {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+}
